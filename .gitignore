@@ -16,3 +16,17 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# ☠️ Secret Protection
+credentials.json
+**/credentials.json
+**/credential*
+*.secret
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+!.env.template
+**/secrets/
+**/.secrets/
